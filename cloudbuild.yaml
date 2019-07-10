@@ -12,7 +12,7 @@ steps:
   - '--build-arg'
   - 'version=0.0.1'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/sumGo:latest'
+  - 'gcr.io/$PROJECT_ID/sum-go:latest'
   - '.'
 images:
-- 'gcr.io/$PROJECT_ID/sumGo:latest'
+- 'gcr.io/$PROJECT_ID/sum-go:latest'
