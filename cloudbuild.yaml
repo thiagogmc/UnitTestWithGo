@@ -3,9 +3,10 @@ steps:
   name: 'gcr.io/cloud-builders/go'
   args: ['install', 'sumGo']
   env: ['GOPATH=.']
+
 - id: "Rodando tests"
   name: 'gcr.io/cloud-builders/go'
-  args: ['test']
+  args: ['test', 'sumGo']
   env: ['GOPATH=.']
 
 - id: "building image"
