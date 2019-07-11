@@ -1,4 +1,4 @@
-package sumGo
+package main
 
 import "fmt"
 
