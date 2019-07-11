@@ -1,5 +1,5 @@
 FROM scratch
 
-COPY ./bin/sumGo /sumGo
+COPY ./bin /sumGo
 
 ENTRYPOINT ["/sumGo"]
