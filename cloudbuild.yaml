@@ -10,7 +10,7 @@ steps:
   env: ['GOPATH=.']
 
 - id: "building image"
-  name: 'gcr.io/cloud-builders/go'
+  name: 'gcr.io/cloud-builders/docker'
   env: ['GOPATH=.']
   args:
   - 'build'
